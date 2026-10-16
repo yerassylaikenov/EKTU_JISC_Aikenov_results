@@ -1,0 +1,13 @@
+{
+ "host": "x86_64",
+ "python": "3.12.3",
+ "gmp": "GMP 6.3.0",
+ "openssl_backend": "hashlib",
+ "sha256_node_us": 0.8586985,
+ "rsa_verify_given_prime_ms": 0.863124,
+ "rsa_verify_derive_prime_ms": 1.2315495,
+ "rsa_full_exponent_ms": 8.668257,
+ "bls_verify_ms": 2.1106775,
+ "bls_single_pairing_ms": 1.501008,
+ "method": "median of 7 independent series, each >=200 repetitions"
+}

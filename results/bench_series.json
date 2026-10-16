@@ -1,0 +1,126 @@
+{
+ "series": 7,
+ "runs": [
+  {
+   "host": "x86_64",
+   "python": "3.12.3",
+   "gmp": "GMP 6.3.0",
+   "openssl_backend": "hashlib",
+   "sha256_node_us": 0.8305805,
+   "rsa_verify_given_prime_ms": 0.8420295,
+   "rsa_verify_derive_prime_ms": 1.1785305,
+   "rsa_full_exponent_ms": 8.668257,
+   "bls_verify_ms": 2.120761,
+   "bls_single_pairing_ms": 1.501008
+  },
+  {
+   "host": "x86_64",
+   "python": "3.12.3",
+   "gmp": "GMP 6.3.0",
+   "openssl_backend": "hashlib",
+   "sha256_node_us": 0.8202,
+   "rsa_verify_given_prime_ms": 0.9098265,
+   "rsa_verify_derive_prime_ms": 1.2588775,
+   "rsa_full_exponent_ms": 8.757707,
+   "bls_verify_ms": 2.0496455,
+   "bls_single_pairing_ms": 1.5086155
+  },
+  {
+   "host": "x86_64",
+   "python": "3.12.3",
+   "gmp": "GMP 6.3.0",
+   "openssl_backend": "hashlib",
+   "sha256_node_us": 0.8541855,
+   "rsa_verify_given_prime_ms": 0.845436,
+   "rsa_verify_derive_prime_ms": 1.225853,
+   "rsa_full_exponent_ms": 8.541465,
+   "bls_verify_ms": 2.1458135,
+   "bls_single_pairing_ms": 1.482504
+  },
+  {
+   "host": "x86_64",
+   "python": "3.12.3",
+   "gmp": "GMP 6.3.0",
+   "openssl_backend": "hashlib",
+   "sha256_node_us": 0.8724745,
+   "rsa_verify_given_prime_ms": 0.8427565,
+   "rsa_verify_derive_prime_ms": 1.218071,
+   "rsa_full_exponent_ms": 8.495728,
+   "bls_verify_ms": 2.03897,
+   "bls_single_pairing_ms": 1.457121
+  },
+  {
+   "host": "x86_64",
+   "python": "3.12.3",
+   "gmp": "GMP 6.3.0",
+   "openssl_backend": "hashlib",
+   "sha256_node_us": 0.8856985,
+   "rsa_verify_given_prime_ms": 0.8717115,
+   "rsa_verify_derive_prime_ms": 1.2315495,
+   "rsa_full_exponent_ms": 8.6156135,
+   "bls_verify_ms": 2.1292005,
+   "bls_single_pairing_ms": 1.6319435
+  },
+  {
+   "host": "x86_64",
+   "python": "3.12.3",
+   "gmp": "GMP 6.3.0",
+   "openssl_backend": "hashlib",
+   "sha256_node_us": 0.87614,
+   "rsa_verify_given_prime_ms": 0.863124,
+   "rsa_verify_derive_prime_ms": 1.3957585,
+   "rsa_full_exponent_ms": 9.003733,
+   "bls_verify_ms": 2.101189,
+   "bls_single_pairing_ms": 1.520198
+  },
+  {
+   "host": "x86_64",
+   "python": "3.12.3",
+   "gmp": "GMP 6.3.0",
+   "openssl_backend": "hashlib",
+   "sha256_node_us": 0.8586985,
+   "rsa_verify_given_prime_ms": 0.8711325,
+   "rsa_verify_derive_prime_ms": 1.2651085,
+   "rsa_full_exponent_ms": 8.693773,
+   "bls_verify_ms": 2.1106775,
+   "bls_single_pairing_ms": 1.496802
+  }
+ ],
+ "summary": {
+  "sha256_node_us": {
+   "median": 0.8586985,
+   "min": 0.8202,
+   "max": 0.8856985
+  },
+  "rsa_verify_derive_prime_ms": {
+   "median": 1.2315495,
+   "min": 1.1785305,
+   "max": 1.3957585
+  },
+  "rsa_verify_given_prime_ms": {
+   "median": 0.863124,
+   "min": 0.8420295,
+   "max": 0.9098265
+  },
+  "bls_verify_ms": {
+   "median": 2.1106775,
+   "min": 2.03897,
+   "max": 2.1458135
+  },
+  "bls_single_pairing_ms": {
+   "median": 1.501008,
+   "min": 1.457121,
+   "max": 1.6319435
+  },
+  "rsa_full_exponent_ms": {
+   "median": 8.668257,
+   "min": 8.495728,
+   "max": 9.003733
+  },
+  "ratio_tR_tB": {
+   "median": 0.5973952534858286,
+   "min": 0.5557111338807155,
+   "max": 0.6642708009607893
+  }
+ }
+}

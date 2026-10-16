@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "Comparative analysis of cryptographic accumulators and Merkle trees for consent revocation in hybrid blockchain medical systems"
+authors:
+  - family-names: Aikenov
+    given-names: Yerassyl
+    orcid: "https://orcid.org/0009-0003-9287-7183"
+    affiliation: "Astana IT University"
+type: software
+license: MIT
